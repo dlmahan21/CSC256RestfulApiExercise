@@ -16,5 +16,6 @@ def test_whoAreThePresidents():
                    "Eisenhower", "Kennedy", "Nixon", "Ford", "Carter", "Bush", "Clinton", "Biden"]
   presidents = whoAreThePresidents()
   for last_name in the_presidents:
-    assert last_name in presidents
+    president_found = any(last_name in president for president in presidents)
+    assert president_found
   
