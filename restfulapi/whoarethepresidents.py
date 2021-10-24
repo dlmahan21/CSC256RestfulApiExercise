@@ -1,8 +1,7 @@
 import requests
-url_ddg = "https://api.duckduckgo.com"
 
 def whoAreThePresidents():
-  response= requests.get(url_ddg + "/?q=presidents+of+the+united+states&format=json")
+  response= requests.get("https://api.duckduckgo.com/?q=presidents+of+the+united+states&format=json")
   resp_data= response.json()
   topic_list = resp_data['RelatedTopics']
   president_names=[]
