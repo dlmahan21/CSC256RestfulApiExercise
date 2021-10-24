@@ -14,7 +14,7 @@ def test_whoAreThePresidents():
                    "Polk", "Fillmore", "Pierce", "Buchanan", "Johnson", "Grant", "Hayes", "Arthur", 
                    "Cleveland", "McKinley", "Roosevelt", "Taft", "Harding", "Coolidge", "Hoover", "Truman", 
                    "Eisenhower", "Kennedy", "Nixon", "Ford", "Carter", "Bush", "Clinton", "Biden"]
-  presidents = whoAreThePresidents(url_ddg)
+  presidents = whoAreThePresidents()
   for last_name in the_presidents:
     assert last_name in presidents
   
