@@ -9,8 +9,8 @@ def test_ddg0():
     assert "DuckDuckGo" in rsp_data["Heading"]
 
 def test_whoAreThePresidents():
-  the_presidents= ["Washington", "Adams", "Jefferson", "Madison", "Monroe", "Jackson", "Buren", "Harrison",
-                   "Tyler", "Taylor", "Lincoln", "Garfield", "Wilson", "Reagan", "Obama", "Trump", 
+  the_presidents= ["Lincoln", "Trump", "Washington", "Adams", "Jefferson", "Madison", "Monroe", "Jackson",
+                   "Tyler", "Taylor", "Garfield", "Wilson", "Reagan", "Obama", "Buren", "Harrison",
                    "Polk", "Fillmore", "Pierce", "Buchanan", "Johnson", "Grant", "Hayes", "Arthur", 
                    "Cleveland", "McKinley", "Roosevelt", "Taft", "Harding", "Coolidge", "Hoover", "Truman", 
                    "Eisenhower", "Kennedy", "Nixon", "Ford", "Carter", "Bush", "Clinton", "Biden"]
